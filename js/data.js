@@ -28,8 +28,8 @@ function cardUrl(pid) {
   return `${_BASE}/w_600,h_900,c_fill,q_auto,f_auto/${pid}`;
 }
 function fullUrl(pid) {
-  // 1400px wide — Image Detail full view
-  return `${_BASE}/w_1400,q_auto,f_auto/${pid}`;
+  // 1200px wide — Image Detail full view
+  return `${_BASE}/w_800,q_auto,f_auto/${pid}`;
 }
 
 // ── Artwork Data ──────────────────────────────────
@@ -120,7 +120,7 @@ const ARTWORKS = {
     {
       id: 1,
       title: 'Fantasy Land',
-      desc: 'Long exposure kabut pagi di atas permukaan Danau Toba. Eksposur 30 detik menghasilkan efek sutra pada air yang tenang, menciptakan suasana mistis dan meditatif.',
+      desc: 'Pengalaman pertama memotret model di kesempatan para penggemar fotografi berkumpul. Seorang model sedang duduk di komedi putar melihat ke arah fotografer lain mengambil fotonya dengan kamera proper mereka. Mencoba untuk tidak bersaing mengambil perhatian sang model dengan kamera poket saya, di sudut itu dimana saya melihat komposisi yang indah untuk diabadikan, seorang wanita di Fantasy Land.',
       pid: 'fotografi2_tgddzb',
     },
     {
