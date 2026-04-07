@@ -74,36 +74,24 @@ const ARTWORKS = {
   'Seni Digital': [
     {
       id: 0,
-      title: 'Piano Sonata',
-      desc: 'Potret digital dengan teknik rendering realistis menggunakan Procreate. Seorang gadis dan piano sebagai objek dari lukisan ini, dalam nuansa hitam putih dan abu-abu.',
-      pid: 'Paint_1_Renata_r0zvwq',
-    },
-    {
-      id: 1,
-      title: 'Birthday Girl',
-      desc: 'Potret digital dengan teknik rendering realistis menggunakan Procreate. Sebagai pemberian untuk ulang tahun.',
-      pid: 'Paint_2_Keiko_rtcotv',
-    },
-    {
-      id: 2,
       title: 'In Suit',
       desc: 'Potret digital dengan teknik rendering realistis menggunakan Procreate. Lukisan narsis.',
       pid: 'Paint_3_Self_1_kzxmir',
     },
     {
-      id: 3,
+      id: 1,
       title: 'Bermain Gitar',
       desc: 'Potret digital dengan teknik rendering realistis menggunakan Procreate. Lukisan narsis.',
       pid: 'Paint_4_Self_2_w07ypd',
     },
     {
-      id: 4,
+      id: 2,
       title: 'Atar Samurai',
       desc: 'Potret digital dengan teknik rendering realistis menggunakan Procreate. Lukisan narsis.',
       pid: 'Paint_5_Self_3_nbuf40',
     },
     {
-      id: 5,
+      id: 3,
       title: 'Looks Like A Slave',
       desc: 'Potret digital dengan teknik rendering realistis menggunakan Procreate. Lukisan narsis.',
       pid: 'Paint_6_Self_4_qy1jtb',
