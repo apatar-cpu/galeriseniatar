@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home — Galeri Seni Atar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-home">
+
+  <!-- Sidebar overlay (populated by nav.js) -->
+  <div id="sidebar-overlay" role="dialog" aria-label="Navigation menu"></div>
+
+  <!-- Top Navigation Bar -->
+  <nav class="top-nav">
+    <button class="nav-menu-btn" onclick="openSidebar()" aria-label="Open menu">
+      <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="6"  x2="21" y2="6"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
+    <span class="nav-brand">galeri <em>SENI</em></span>
+  </nav>
+
+  <!-- Sticky Search Bar -->
+  <div class="search-bar-wrap">
+    <div class="search-input-wrap">
+      <svg class="search-icon" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <circle cx="11" cy="11" r="8"/>
+        <path d="M21 21l-4.35-4.35"/>
+      </svg>
+      <input
+        class="search-input"
+        type="search"
+        id="home-search"
+        placeholder="Cari karya seni..."
+        autocomplete="off"
+      >
+    </div>
+  </div>
+
+  <!-- Category sections (populated by home.js) -->
+  <main class="home-sections" id="home-sections"></main>
+
+  <!-- Scripts: data first, then shared helpers, then page logic -->
+  <script src="js/data.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/home.js"></script>
+
+</body>
+</html>

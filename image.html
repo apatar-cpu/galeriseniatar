@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karya — Galeri Seni Atar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-image">
+
+  <!-- Sidebar overlay (populated by nav.js) -->
+  <div id="sidebar-overlay" role="dialog" aria-label="Navigation menu"></div>
+
+  <!-- Top Navigation Bar -->
+  <nav class="top-nav">
+    <button class="nav-back-btn" onclick="goBack()" aria-label="Go back">
+      <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+        <path d="M19 12H5M12 5l-7 7 7 7"/>
+      </svg>
+      Kembali
+    </button>
+    <!-- Artwork title injected by image.js -->
+    <span class="nav-page-title" id="image-nav-title"></span>
+  </nav>
+
+  <!-- Split Layout:
+       Desktop  → description (left 45%) | image (right 55%)
+       Mobile   → image (top)            | description (bottom)
+  -->
+  <div class="image-view-layout">
+
+    <!-- LEFT / BOTTOM: Description panel -->
+    <section class="image-detail-desc">
+      <p class="image-detail-category" id="image-cat-label"></p>
+      <h1 class="image-detail-title"  id="image-title"></h1>
+
+      <!-- Audio player injected here for Music artworks -->
+      <div id="audio-player-slot"></div>
+
+      <p class="image-detail-body" id="image-desc"></p>
+    </section>
+
+    <!-- RIGHT / TOP: Image panel -->
+    <div class="image-detail-image" id="image-detail-image">
+      <div class="no-image">Memuat gambar…</div>
+    </div>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/image.js"></script>
+
+</body>
+</html>
