@@ -284,10 +284,15 @@ body.page-image { background: var(--bg-white); }
 .image-detail-image {
   position: sticky; top: var(--nav-h);
   height: calc(100dvh - var(--nav-h));
+  background: #111;           /* dark neutral behind the image */
+  display: flex; align-items: center; justify-content: center;
   overflow: hidden;
 }
 .image-detail-image img {
-  width: 100%; height: 100%; object-fit: cover;
+  max-width: 100%; max-height: 100%;
+  width: auto; height: auto;  /* let the image keep its natural ratio */
+  object-fit: contain;        /* show full image, no cropping */
+  display: block;
 }
 .image-detail-image .no-image {
   width: 100%; height: 100%;
@@ -396,11 +401,35 @@ body.page-about {
   position: relative; min-height: 45vh;
   display: flex; align-items: flex-end; overflow: hidden;
 }
-.about-bg {
+
+/* ── Collage grid (fills the hero area) ─────────── */
+.about-collage {
   position: absolute; inset: 0;
-  background: url('../assets/about_bg.webp') center/cover no-repeat;
-  opacity: 0.5;
+  display: grid;
+  /* auto-fill columns: min 100px, max 1fr — adapts to any viewport */
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-auto-rows: 120px;
+  gap: 3px;
+  overflow: hidden;
 }
+.about-collage-img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: brightness(0.6) saturate(0.85);
+  transition: filter 0.4s ease;
+}
+/* Dark gradient overlay — ensures text readability */
+.about-collage-overlay {
+  position: absolute; inset: 0; z-index: 1;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.82) 0%,
+    rgba(0,0,0,0.45) 50%,
+    rgba(0,0,0,0.25) 100%
+  );
+}
+
 .about-label {
   position: relative; z-index: 2;
   padding: 32px 28px;
@@ -408,6 +437,15 @@ body.page-about {
   color: #fff; font-weight: 400;
 }
 .about-label strong { font-weight: 900; font-size: 36px; }
+
+/* Desktop: taller hero with more rows visible */
+@media (min-width: 769px) {
+  .about-hero { min-height: 55vh; }
+  .about-collage {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    grid-auto-rows: 150px;
+  }
+}
 .about-panel {
   background: var(--bg-mid);
   padding: 36px 28px 56px; flex: 1;
@@ -418,7 +456,7 @@ body.page-about {
 }
 .about-desc {
   font-size: 14px; line-height: 1.8; color: rgba(255,255,255,0.7);
-  margin-bottom: 32px; max-width: fit-content;
+  margin-bottom: 32px; max-width: 520px;
 }
 .about-desc strong { color: #fff; font-weight: 600; }
 .about-cta {
@@ -451,8 +489,17 @@ body.page-about {
     min-height: unset;
   }
   .image-detail-image {
-    position: static; height: 65vw; min-height: 280px;
-    order: -1;
+    position: static;
+    height: auto;          /* grow to fit the full image */
+    min-height: 220px;
+    order: -1;             /* image stays above description */
+    background: #111;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .image-detail-image img {
+    max-width: 100%; max-height: 75vw;
+    width: auto; height: auto;
+    object-fit: contain;
   }
   .image-detail-desc {
     position: static; max-height: unset;

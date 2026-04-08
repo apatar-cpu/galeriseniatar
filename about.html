@@ -12,8 +12,19 @@
 <body class="page-about">
 
   <div class="about-hero">
-    <div class="about-bg"></div>
+
+    <!--
+      Collage grid — filled dynamically by about.js using all artwork
+      thumbnails from every category. CSS auto-fill adapts to any viewport.
+    -->
+    <div id="about-collage" class="about-collage"></div>
+
+    <!-- Gradient overlay keeps "tentang ATAR" legible over the collage -->
+    <div class="about-collage-overlay"></div>
+
+    <!-- Hero label — sits above collage and overlay via z-index: 2 -->
     <div class="about-label">tentang <strong>ATAR</strong></div>
+
   </div>
 
   <div class="about-panel">
@@ -33,6 +44,10 @@
       </svg>
     </a>
   </div>
+
+  <!-- data.js must load first; about.js reads ARTWORKS and CATEGORIES -->
+  <script src="js/data.js"></script>
+  <script src="js/about.js"></script>
 
 </body>
 </html>
