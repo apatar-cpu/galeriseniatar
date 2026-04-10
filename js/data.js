@@ -48,7 +48,7 @@ const ARTWORKS = {
     {
       id: 0,
       title: 'Potret Diri 1',
-      desc: 'Sketsa narsis menggunakan pensil pada medium kertas coklat. Sketsa dari wajah lelah diri sendiri.',
+      desc: 'Sketsa narsis menggunakan pensil pada medium kertas coklat. Wajah lelah diri sendiri menjadi objek lukisan.',
       pid: 'Tradi1-Self1_yi5jne',
     },
     {
