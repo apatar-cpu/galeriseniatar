@@ -96,6 +96,24 @@ const ARTWORKS = {
       desc: 'Potret digital dengan teknik rendering realistis menggunakan Procreate. Lukisan narsis terakhir dibuat di Procreate (iPadnya dijual krn BU), hasilnya terlihat seperti african american slave. Penggambaran tidak langsung dari realita sebagai budak banyak orang.',
       pid: 'Paint_6_Self_4_qy1jtb',
     },
+    {
+      id: 4,
+      title: 'Kemelekatan',
+      desc: `Mengapa melekat dengan tradisi dan bukan dengan keimananmu.
+    Mengapa melekat dengan tujuan hidup yang ditetapkan oleh manusia dan bukan dengan tujuan hidup yang ditetapkan oleh Tuhanmu.
+    Mengapa melekat dengan kata-kata manis manusia meskipun bertentangan dengan kata-kata Tuhanmu.
+    Mengapa melekat dengan keinginan daging dan bukan dengan kebutuhan rohani.
+    Mengapa melekat dengan darah dagingmu tetapi tidak dengan semamamu.
+    Mengapa melekat dengan ambisi yang kamu bebankan di hidup jiwa lain demi kepuasanmu sendiri.
+    Mengapa melekat dengan mengejar mimpi sembari menguras tenaga jiwa-jiwa lain.
+    Mengapa melekat dengan kemewahan ketika kesederhanaan cukup.
+    Mengapa melekat dengan ketakutan akan kekurangan ketika hidupmu tercukupi.
+    Mengapa melekat dengan rasa iri dan kebencian kepada saudaramu.
+    Mengapa melekat dengan keinginanmu untuk mengatur jalan hidup jiwa-jiwa yang lain.
+    Mengapa melekat dengan rasa kehilangan sampai jiwa lain terkungkung.
+    Mengapa melekat dengan ketakutan akan kematian tetapi tidak bersinar selama hidupmu.`,
+      pid: 'kemelekatan_ud2qgl',
+},
   ],
 
   'Fotografi': [
@@ -186,7 +204,7 @@ const ARTWORKS = {
     {
       id: 14,
       title:'Di Balik Jeruji',
-      desc: 'Seekor burung kakatua terjebak di dalam kandang, wajahnya ditempelkan ke jeruji besi, sorot matanya menatap tajam ke depan. Seolah-olah ia ingin sekali keluar dari kandang yang mengikat kebebasannya untuk terbang.',
+      desc: 'Seekor burung kakatua terjebak di dalam kandang, wajahnya ditempelkan ke jeruji besi, sorot matanya menatap tajam ke depan. Sayangnya hewan pemalas ini lebih memilih belas kasihan dari manusia untuk diberikan makanan.',
       pid: 'fotografi15_flrqv7',
     },
     {
