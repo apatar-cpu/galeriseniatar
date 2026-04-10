@@ -204,7 +204,7 @@ const ARTWORKS = {
     {
       id: 14,
       title:'Di Balik Jeruji',
-      desc: 'Seekor burung kakatua terjebak di dalam kandang, wajahnya ditempelkan ke jeruji besi, sorot matanya menatap tajam ke depan. Sayangnya hewan pemalas ini lebih memilih belas kasihan dari manusia untuk diberikan makanan.',
+      desc: 'Seekor burung kakatua terjebak di dalam kandang, wajahnya ditempelkan ke jeruji besi, sorot matanya menatap tajam ke depan. Seolah-olah ia ingin keluar dari kandangnya dan terbang bebas.',
       pid: 'fotografi15_flrqv7',
     },
     {
