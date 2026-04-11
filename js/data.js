@@ -99,19 +99,19 @@ const ARTWORKS = {
     {
       id: 4,
       title: 'Kemelekatan',
-      desc: `Mengapa melekat dengan tradisi dan bukan dengan keimananmu.
-    Mengapa melekat dengan tujuan hidup yang ditetapkan oleh manusia dan bukan dengan tujuan hidup yang ditetapkan oleh Tuhanmu.
-    Mengapa melekat dengan kata-kata manis manusia meskipun bertentangan dengan kata-kata Tuhanmu.
-    Mengapa melekat dengan keinginan daging dan bukan dengan kebutuhan rohani.
-    Mengapa melekat dengan darah dagingmu tetapi tidak dengan semamamu.
-    Mengapa melekat dengan ambisi yang kamu bebankan di hidup jiwa lain demi kepuasanmu sendiri.
-    Mengapa melekat dengan mengejar mimpi sembari menguras tenaga jiwa-jiwa lain.
-    Mengapa melekat dengan kemewahan ketika kesederhanaan cukup.
-    Mengapa melekat dengan ketakutan akan kekurangan ketika hidupmu tercukupi.
-    Mengapa melekat dengan rasa iri dan kebencian kepada saudaramu.
-    Mengapa melekat dengan keinginanmu untuk mengatur jalan hidup jiwa-jiwa yang lain.
-    Mengapa melekat dengan rasa kehilangan sampai jiwa lain terkungkung.
-    Mengapa melekat dengan ketakutan akan kematian tetapi tidak bersinar selama hidupmu.`,
+      desc: `Mengapa melekat pada tradisi dan bukan dengan keimananmu.
+    Mengapa melekat pada tujuan hidup yang ditetapkan oleh manusia dan bukan dengan tujuan hidup yang ditetapkan oleh Tuhanmu.
+    Mengapa melekat pada kata-kata manis manusia meskipun bertentangan dengan kata-kata Tuhanmu.
+    Mengapa melekat pada keinginan daging dan bukan dengan kebutuhan rohani.
+    Mengapa melekat pada darah dagingmu tetapi tidak dengan sesamamu.
+    Mengapa melekat pada ambisi yang kamu bebankan di hidup jiwa lain demi kepuasanmu sendiri.
+    Mengapa melekat pada mengejar mimpi sembari menguras tenaga jiwa-jiwa lain.
+    Mengapa melekat pada kemewahan ketika kesederhanaan cukup.
+    Mengapa melekat pada ketakutan akan kekurangan ketika hidupmu tercukupi.
+    Mengapa melekat pada rasa iri dan kebencian kepada saudaramu.
+    Mengapa melekat pada keinginanmu untuk mengatur jalan hidup jiwa-jiwa yang lain.
+    Mengapa melekat pada rasa kehilangan sampai jiwa lain terkungkung.
+    Mengapa melekat pada ketakutan akan kematian tetapi tidak bersinar selama hidupmu.`,
       pid: 'kemelekatan_ud2qgl',
 },
   ],
@@ -271,7 +271,7 @@ const ARTWORKS = {
     {
       id: 1,
       title: 'Setiabudi Mixed Use',
-      desc: 'Konsep bangunan mixed use di Semarang dengan proses desain dikerjakan tanpa tim dalam waktu satu minggu. Sebuat proses berkreasi yang sungguh saya benci.',
+      desc: 'Konsep bangunan mixed use di Semarang dengan proses desain dikerjakan tanpa tim dalam waktu satu minggu. Sebuah proses berkreasi yang sungguh saya benci.',
       pid: 'setiabudi-1_an1sxs',
     },
     {
