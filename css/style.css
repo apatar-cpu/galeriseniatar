@@ -347,7 +347,7 @@ body.page-welcome { background: var(--bg-dark); }
 }
 .welcome-bg {
   position: absolute; inset: 0;
-  background: url('../assets/welcome_bg.webp') center/cover no-repeat;
+  background: url('https://res.cloudinary.com/dbbjz0mjx/image/upload/v1775801613/welcome_bg_uty0zc.webp') center/contain no-repeat;
   filter: brightness(0.55);
 }
 .welcome-content {
